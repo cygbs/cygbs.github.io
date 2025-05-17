@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.20" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>BugCraft</title><meta name="description" content="一个简单的 Minecraft 服务器。">
+    <link rel="preload" href="/assets/style-vo_iYly3.css" as="style"><link rel="stylesheet" href="/assets/style-vo_iYly3.css">
+    <link rel="modulepreload" href="/assets/app-Nu-MDxWE.js"><link rel="modulepreload" href="/assets/404.html-BeV_t77a.js">
+    <link rel="prefetch" href="/assets/index.html-DaJGhC2Z.js" as="script"><link rel="prefetch" href="/assets/about.html-C_HPvLOC.js" as="script"><link rel="prefetch" href="/assets/get-started.html-BiouDmk-.js" as="script"><link rel="prefetch" href="/assets/links.html-CWb2B2ag.js" as="script"><link rel="prefetch" href="/assets/minecraft-srv.html-DajdKPnQ.js" as="script"><link rel="prefetch" href="/assets/setup-geyser.html-BPJG8YZE.js" as="script"><link rel="prefetch" href="/assets/index.html-BYYEfUYe.js" as="script"><link rel="prefetch" href="/assets/index.html-BoODEjSg.js" as="script"><link rel="prefetch" href="/assets/index.html-C304PyPu.js" as="script"><link rel="prefetch" href="/assets/index.html-Csqj39ob.js" as="script"><link rel="prefetch" href="/assets/index.html-BaEMIrl1.js" as="script"><link rel="prefetch" href="/assets/index.html-B4ie_MPZ.js" as="script"><link rel="prefetch" href="/assets/index.html-g8DZG2Uy.js" as="script"><link rel="prefetch" href="/assets/index.html-poeWc3Mt.js" as="script"><link rel="prefetch" href="/assets/SearchBox-dposCXRp.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-304eccc8><main class="page" data-v-304eccc8><div vp-content data-v-304eccc8><h1 data-v-304eccc8>404</h1><blockquote data-v-304eccc8>There&#39;s nothing here.</blockquote><a class="route-link" href="/" data-v-304eccc8>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-Nu-MDxWE.js" defer></script>
+  </body>
+</html>
